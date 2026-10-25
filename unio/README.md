@@ -87,7 +87,7 @@ The guided interface lets you:
 1. Create and unlock the encrypted local vault.
 2. Create a new EVM wallet or import an existing recovery phrase.
 3. Save the recovery backup in a secure offline location.
-4. Use the wallet interactively or configure Agent Mode.
+4. Use the wallet interactively or configure Agentic Mode.
 
 The recovery backup contains the recovery phrase and private key. Never share it, commit it to
 source control, or leave it in a cloud-synchronized folder. A newly created agent access key is
@@ -124,7 +124,7 @@ in the persistent `unio-data` Docker volume.
 
 ## Connect an agent
 
-Create an access key in Agent Mode, then configure the local agent with:
+Create an access key in Agentic Mode, then configure the local agent with:
 
 ```sh
 export UNIO_SERVER_URL=http://127.0.0.1:34567/unio/server
